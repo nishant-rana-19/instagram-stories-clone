@@ -2,7 +2,7 @@
     "storiesList": [
         {
             "uid": "1",
-            "username": "User A",
+            "username": "Hrithik",
             "previewImg": "../assets/profile/user1.jpg",
             "stories": [
                 {
@@ -17,7 +17,7 @@
         },
         {
             "uid": "2",
-            "username": "User B",
+            "username": "Roshan",
             "previewImg": "../assets/profile/user2.jpg",
             "stories": [
                 {
@@ -36,7 +36,7 @@
         },
         {
             "uid": "3",
-            "username": "veryyyyyyy long usernameee",
+            "username": "John Lennon",
             "previewImg": "../assets/profile/user3.jpg",
             "stories": [
                 {
@@ -59,7 +59,7 @@
         },
         {
             "uid": "4",
-            "username": "User A",
+            "username": "WildFlower",
             "previewImg": "../assets/profile/user4.jpg",
             "stories": [
                 {
@@ -74,7 +74,7 @@
         },
         {
             "uid": "5",
-            "username": "anotherusernamewhichisverylongbutiswithoutanyspaces",
+            "username": "sundried.mangroove.tree",
             "previewImg": "../assets/profile/user5.jpg",
             "stories": [
                 {
@@ -101,7 +101,7 @@
         },
         {
             "uid": "6",
-            "username": "User A",
+            "username": "pictureprefect",
             "previewImg": "../assets/profile/user6.jpg",
             "stories": [
                 {
@@ -116,7 +116,7 @@
         },
         {
             "uid": "7",
-            "username": "User A",
+            "username": "amazingnature",
             "previewImg": "../assets/profile/user7.jpg",
             "stories": [
                 {
@@ -147,7 +147,7 @@
         },
         {
             "uid": "8",
-            "username": "User A",
+            "username": "imnotmadmanmad",
             "previewImg": "../assets/profile/user8.jpg",
             "stories": [
                 {
@@ -166,7 +166,7 @@
         },
         {
             "uid": "9",
-            "username": "User A",
+            "username": "madmaxfury",
             "previewImg": "../assets/profile/user9.jpg",
             "stories": [
                 {
@@ -185,7 +185,7 @@
         },
         {
             "uid": "10",
-            "username": "User A",
+            "username": "bootshiner",
             "previewImg": "../assets/profile/user10.jpg",
             "stories": [
                 {
