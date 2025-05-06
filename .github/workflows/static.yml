@@ -31,7 +31,7 @@ jobs:
         with:
           node-version: '22.x'
       - name: Installing Dependencies
-        run: npm ci
+        run: npm install
       - name: Running build process
         run: npm run build --if-present
       - name: Store the build folder
