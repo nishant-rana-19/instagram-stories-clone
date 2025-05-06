@@ -168,7 +168,17 @@ const StoryPage: React.FC<StoryPageProps> = ({
                                         >
                                             <img
                                                 className="inset-0 size-full object-cover"
-                                                src={storyItem?.imageUrl}
+                                                src={
+                                                    import.meta.env.MODE ===
+                                                    "development"
+                                                        ? `/..${storyItem?.imageUrl}`
+                                                        : `/${
+                                                              import.meta.env
+                                                                  .BASE_URL
+                                                          }${
+                                                              storyItem?.imageUrl
+                                                          }`
+                                                }
                                                 loading="lazy"
                                             />
                                         </li>
