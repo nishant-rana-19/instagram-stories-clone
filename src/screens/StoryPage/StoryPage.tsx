@@ -4,8 +4,11 @@ import Loader from "../../components/Loader/Loader";
 import "./storyPage.css";
 import useInterval from "../../hooks/useInterval";
 
+// Importing Types
+import { IUserStoriesListObject } from "../../data/data.types";
+
 interface StoryPageProps {
-    storiesData: Array<JSON>;
+    storiesData: Array<IUserStoriesListObject>;
     openStoryUserIndex: number;
     handleClose: () => void;
 }
@@ -16,7 +19,7 @@ const StoryPage: React.FC<StoryPageProps> = ({
     handleClose,
 }) => {
     const timeToNextStoryInSeconds = 5;
-    const storySwipeContainerRef = useRef(null);
+    const storySwipeContainerRef = useRef<HTMLOListElement>(null);
     const [currUserStoryIndex, setCurrUserStoryIndex] = useState(0);
     const [currUserIndex, setCurrUserIndex] = useState(openStoryUserIndex);
     const [loading, setLoading] = useState(true);
@@ -64,9 +67,11 @@ const StoryPage: React.FC<StoryPageProps> = ({
         setCurrUserStoryIndex((prevState) => prevState + 1);
     }, timeToNextStoryInSeconds * 1000);
 
-    const handleSwipe = (navigateToIndex, instant = false) => {
-        console.log("HandleSwipe: Go To:", navigateToIndex);
-        if (storySwipeContainerRef !== null) {
+    const handleSwipe = (navigateToIndex: number, instant = false) => {
+        if (
+            storySwipeContainerRef !== null &&
+            storySwipeContainerRef?.current
+        ) {
             const scrollToValue = Math.floor(
                 storySwipeContainerRef.current?.scrollWidth *
                     (navigateToIndex / storiesData.length)
@@ -77,7 +82,6 @@ const StoryPage: React.FC<StoryPageProps> = ({
                     behavior: "instant",
                 });
             } else {
-                console.log("Scroll To Value:", scrollToValue);
                 storySwipeContainerRef.current.scroll({
                     left: scrollToValue,
                     behavior: "smooth",
