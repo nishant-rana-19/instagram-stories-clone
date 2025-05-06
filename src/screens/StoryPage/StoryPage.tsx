@@ -229,7 +229,15 @@ const StoryPage: React.FC<StoryPageProps> = ({
                                 <div className="flex gap-4 items-center">
                                     <div className="w-[64px]">
                                         <Avatar
-                                            imgUrl={userItem?.previewImg}
+                                            imgUrl={
+                                                import.meta.env.MODE ===
+                                                "development"
+                                                    ? `/..${userItem?.previewImg}`
+                                                    : `${
+                                                          import.meta.env
+                                                              .BASE_URL
+                                                      }${userItem?.previewImg}`
+                                            }
                                             altText={`${userItem?.username} profile picture`}
                                             showOutline={false}
                                         />
