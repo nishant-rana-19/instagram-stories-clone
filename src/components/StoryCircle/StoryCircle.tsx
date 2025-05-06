@@ -18,7 +18,7 @@ const StoryCircle: React.FC<StoryCircleProps> = ({
         <button className="btn" onClick={() => clickHandler(userId)}>
             <div className="flex flex-col justify-center-safe w-[64px]">
                 <Avatar
-                    imgUrl={imageUrl}
+                    imgUrl={`${import.meta.env.BASE_URL}_${imageUrl}`}
                     altText={`${userName} profile picture`}
                     showOutline={true}
                 />
