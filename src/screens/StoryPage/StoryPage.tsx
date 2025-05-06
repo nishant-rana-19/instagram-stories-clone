@@ -172,7 +172,7 @@ const StoryPage: React.FC<StoryPageProps> = ({
                                                     import.meta.env.MODE ===
                                                     "development"
                                                         ? `/..${storyItem?.imageUrl}`
-                                                        : `/${
+                                                        : `${
                                                               import.meta.env
                                                                   .BASE_URL
                                                           }${

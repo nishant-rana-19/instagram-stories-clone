@@ -21,7 +21,7 @@ const StoryCircle: React.FC<StoryCircleProps> = ({
                     imgUrl={
                         import.meta.env.MODE === "development"
                             ? `/..${imageUrl}`
-                            : `/${import.meta.env.BASE_URL}${imageUrl}`
+                            : `${import.meta.env.BASE_URL}${imageUrl}`
                     }
                     altText={`${userName} profile picture`}
                     showOutline={true}
