@@ -1,0 +1,72 @@
+.progress-bar.completed {
+    background-color: white;
+}
+.progress-bar.active::before {
+    content: "";
+    animation: progressBar 5s linear;
+    animation-fill-mode: both;
+    display: inline-block;
+    height: 4px;
+    border-radius: 999px;
+    position: absolute;
+}
+
+@keyframes progressBar {
+    0% {
+        width: 0;
+        background-color: white;
+    }
+    100% {
+        width: 100%;
+        background-color: white;
+    }
+}
+
+ol.swipe-container {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.swipe-container {
+    display: flex;
+    align-items: center;
+    overflow-x: auto;
+    overflow-y: hidden;
+    height: 100%;
+    width: 100%;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.swipe-container::-webkit-scrollbar {
+    display: none;
+}
+.swipe-card {
+    height: 100%;
+    width: 100vw;
+}
+
+@supports (scroll-snap-align: start) {
+    .swipe-container {
+        scroll-snap-type: x mandatory;
+    }
+    .swipe-card {
+        scroll-snap-align: center;
+    }
+}
+
+@supports not (scroll-snap-align: start) {
+    .swipe-container {
+        -webkit-scroll-snap-type: mandatory;
+        scroll-snap-type: mandatory;
+        -webkit-scroll-snap-destination: 0 50%;
+        scroll-snap-destination: 0 50%;
+        -webkit-scroll-snap-points-x: repeat(100%);
+        scroll-snap-points-x: repeat(100%);
+    }
+
+    .swipe-card {
+        scroll-snap-coordinate: 0 0;
+    }
+}

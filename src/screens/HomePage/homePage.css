@@ -1,0 +1,11 @@
+.animate-scale {
+    transform: scale(0, 0);
+    animation: animationScale 1.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animationScale {
+    100% {
+        transform: scale(1, 1);
+    }
+}

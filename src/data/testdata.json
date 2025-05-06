@@ -1,0 +1,210 @@
+{
+    "storiesList": [
+        {
+            "uid": "1",
+            "username": "User A",
+            "previewImg": "../assets/profile/user1.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user1/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user1/2.jpg",
+                    "timestamp": 123435
+                }
+            ]
+        },
+        {
+            "uid": "2",
+            "username": "User B",
+            "previewImg": "../assets/profile/user2.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user2/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user2/2.jpg",
+                    "timestamp": 345678
+                },
+                {
+                    "imageUrl": "../assets/stories/user2/3.jpg",
+                    "timestamp": 345678
+                }
+            ]
+        },
+        {
+            "uid": "3",
+            "username": "veryyyyyyy long usernameee",
+            "previewImg": "../assets/profile/user3.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user3/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user3/2.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user3/3.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user3/4.jpg",
+                    "timestamp": 123435
+                }
+            ]
+        },
+        {
+            "uid": "4",
+            "username": "User A",
+            "previewImg": "../assets/profile/user4.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user4/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user4/2.jpg",
+                    "timestamp": 123435
+                }
+            ]
+        },
+        {
+            "uid": "5",
+            "username": "anotherusernamewhichisverylongbutiswithoutanyspaces",
+            "previewImg": "../assets/profile/user5.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user5/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user5/2.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user5/3.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user5/4.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user5/5.jpg",
+                    "timestamp": 123435
+                }
+            ]
+        },
+        {
+            "uid": "6",
+            "username": "User A",
+            "previewImg": "../assets/profile/user6.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user6/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user6/2.jpg",
+                    "timestamp": 123435
+                }
+            ]
+        },
+        {
+            "uid": "7",
+            "username": "User A",
+            "previewImg": "../assets/profile/user7.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user7/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user7/2.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user7/3.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user7/4.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user7/5.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user7/6.jpg",
+                    "timestamp": 123435
+                }
+            ]
+        },
+        {
+            "uid": "8",
+            "username": "User A",
+            "previewImg": "../assets/profile/user8.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user8/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user8/2.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user8/3.jpg",
+                    "timestamp": 123435
+                }
+            ]
+        },
+        {
+            "uid": "9",
+            "username": "User A",
+            "previewImg": "../assets/profile/user9.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user9/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user9/2.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user9/3.jpg",
+                    "timestamp": 123435
+                }
+            ]
+        },
+        {
+            "uid": "10",
+            "username": "User A",
+            "previewImg": "../assets/profile/user10.jpg",
+            "stories": [
+                {
+                    "imageUrl": "../assets/stories/user10/1.jpg",
+                    "timestamp": 123456
+                },
+                {
+                    "imageUrl": "../assets/stories/user10/2.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user10/3.jpg",
+                    "timestamp": 123435
+                },
+                {
+                    "imageUrl": "../assets/stories/user10/4.jpg",
+                    "timestamp": 123435
+                }
+            ]
+        }
+    ]
+}
